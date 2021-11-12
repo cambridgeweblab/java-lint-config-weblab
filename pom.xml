@@ -7,13 +7,13 @@
 
     <groupId>com.github.cambridgeweblab</groupId>
     <artifactId>java-lint-config-weblab</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>1.x.x-SNAPSHOT</version>
 
     <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/cambridgeweblab/java-lint-config-weblab</url>
+            <url>https://maven.pkg.github.com/cambridgeweblab/releases</url>
         </repository>
     </distributionManagement>
 
