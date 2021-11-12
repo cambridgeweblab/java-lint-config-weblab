@@ -1,4 +1,3 @@
-/shippable/
 
 # Created by .ignore support plugin (hsz.mobi)
 ### NetBeans template
@@ -185,3 +184,4 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+/node_modules/
