@@ -23,6 +23,8 @@ jobs:
         java-version: '11'
         distribution: 'adopt'
         cache: maven
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Cache Maven dependencies
       uses: actions/cache@v2.1.1
       with:
