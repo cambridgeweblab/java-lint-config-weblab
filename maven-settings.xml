@@ -5,6 +5,10 @@
  -->
 <settings>
     <servers>
+        <server>
+            <id>github</id>
+            <privateKey>${env.GITHUB_TOKEN}</privateKey>
+        </server>
 <!--        <server>-->
 <!--            <id>ossrh</id>-->
 <!--            <username>${env.OSSRH_JIRA_USERNAME}</username>-->
