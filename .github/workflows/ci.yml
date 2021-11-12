@@ -37,6 +37,8 @@ jobs:
         node-version: 14
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Cache npm install
+      uses: bahmutov/npm-install@v1.6.0
     - run: |
         npm install -g semantic-release @semantic-release/changelog @semantic-release/commit-analyzer \
         semantic-release/git semantic-release/release-notes-generator @conveyal/maven-semantic-release
