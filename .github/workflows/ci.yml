@@ -45,7 +45,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       run: |
         npx semantic-release \
-        --use-conveyal-workflow \
         --dry-run
+#         --use-conveyal-workflow \
 
 
