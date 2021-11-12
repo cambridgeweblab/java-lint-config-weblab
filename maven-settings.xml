@@ -7,14 +7,11 @@
     <servers>
         <server>
             <id>github</id>
-            <privateKey>${env.GITHUB_TOKEN}</privateKey>
+            <username>${env.GITHUB_ACTOR}</username>
+            <password>${env.GITHUB_TOKEN}</password>
         </server>
-<!--        <server>-->
-<!--            <id>ossrh</id>-->
-<!--            <username>${env.OSSRH_JIRA_USERNAME}</username>-->
-<!--            <password>${env.OSSRH_JIRA_PASSWORD}</password>-->
-<!--        </server>-->
     </servers>
+
     <profiles>
 <!--        <profile>-->
 <!--            <id>ossrh</id>-->
